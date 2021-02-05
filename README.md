@@ -1,7 +1,13 @@
 # Actuition
 
 ## Project Description
-Actuition is a tuition reimbursement management system. Users are able to make requests and be reimbursed accordingly based on the amount of funds that are available, approvals, and their final grade.
+Actuition is a tuition reimbursement management system. Users are able to make requests and be reimbursed accordingly based on the amount of funds that are available, approvals, and their final grade. Reimbursement amount is determined by event type:
+* University Courses - 80%
+* Seminars - 60%
+* Cerification Preparation Classes - 75%
+* Certification - 100%
+* Techinical Training - 90%
+* Other - 30%
 
  ## Technologies Used
  * React - version 16.14.2
@@ -10,12 +16,37 @@ Actuition is a tuition reimbursement management system. Users are able to make r
  * TypeScript - version 4.1.3
 
 ## Features
- Actuition allows users to make requests for reimbursement on events such as:
-* University Courses - 80%
-* Seminars - 60%
-* Cerification Preparation Classes - 75%
-* Certification - 100%
-* Techinical Training - 90%
-* Other - 30%
- 
- Requests have to go through a chain of approvals before it can be considered pending for reimbursement. Once the user's final grade or presentation is approved, the user then receives the reimbursement.
+* Users can log in/log out
+* Users can make a request
+* Users can see their requests and its status
+* Users with roles other than "Employee" can approve requests
+* Requests that are within 2 weeks are marked urgent
+
+### TODO
+* Show pending total of reimbusement amount when filling out request form
+* Allo users to cancel their own request
+* Allow user to be able to upload a grade
+* Implement approving after grade is uploaded
+
+
+ ## Getting Started
+In the terminal run these commands:
+1. To clone: `git clone https://github.com/ninancode/actuition.git`
+2. Install dependencies in both backend and frontend: `npm install`
+3. Setup tables: `npm run setup`
+4. Start backend in backend foler: `npm run start`
+5. Start up frontend in frontend folder: `npm run start`
+
+## Usage
+Usernames to log in with (roles are in parentheses)
+* 101501 (Employee)
+* 101502 (Direct Manager)
+* 101511 (Supervisor & Direct Manager)
+* 101511 (Supervisor)
+* 101521 (BenCo)
+* 101621 (Benco)
+
+All passwords are `pass`. Once logged in, you can make a request, see your requests, and approve requests if you have the appropriate role.
+
+## License
+None.
