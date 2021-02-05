@@ -34,7 +34,7 @@ In the terminal run these commands:
 1. To clone: `git clone https://github.com/ninancode/actuition.git`
 2. Install dependencies in both backend and frontend: `npm install`
 3. Setup tables: `npm run setup`
-4. Start backend in backend foler: `npm run start`
+4. Start up backend in backend folder: `npm run start`
 5. Start up frontend in frontend folder: `npm run start`
 
 ## Usage
