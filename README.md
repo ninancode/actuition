@@ -16,17 +16,17 @@ Actuition is a tuition reimbursement management system. Users are able to make r
  * TypeScript - version 4.1.3
 
 ## Features
-* Users can log in/log out
-* Users can make a request
-* Users can see their requests and its status
-* Users with roles other than "Employee" can approve requests
-* Requests that are within 2 weeks are marked urgent
+* Users can log in/log out.
+* Users can make a request.
+* Users can see their requests and its status.
+* Users with roles other than "Employee" can approve requests.
+* Requests that are within 2 weeks are marked urgent.
 
 ### TODO
-* Show pending total of reimbusement amount when filling out request form
-* Allo users to cancel their own request
-* Allow user to be able to upload a grade
-* Implement approving after grade is uploaded
+* Show pending total of reimbusement amount when filling out request form.
+* Allow users to cancel their own request.
+* Allow user to be able to upload a grade.
+* Implement approving after grade is uploaded.
 
 
  ## Getting Started
