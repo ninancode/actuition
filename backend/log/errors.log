@@ -1,0 +1,1567 @@
+[2021-01-18T13:13:25.219] [ERROR] default - Unable to delete table. Error JSON: {
+  "message": "Requested resource not found: Table: employees not found",
+  "code": "ResourceNotFoundException",
+  "time": "2021-01-18T18:13:25.214Z",
+  "requestId": "LI6CCO28KH7RJO67JD94EPSMVRVV4KQNSO5AEMVJF66Q9ASUAAJG",
+  "statusCode": 400,
+  "retryable": false,
+  "retryDelay": 44.41365583444856
+}
+[2021-01-18T13:13:50.859] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-18T18:13:50.859Z,
+  requestId: '1KKJOV1HJ2SLPHFRL282P6ODD3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 48.2983254868131
+}
+[2021-01-18T14:53:03.694] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-18T19:53:03.692Z,
+  requestId: 'NRKUU5QU4U2R3K6KNQ7KLC3613VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 21.234356983884407
+}
+[2021-01-18T14:53:37.361] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-18T19:53:37.360Z,
+  requestId: 'QM70FVPIQTO6JEOKMETATRAUJRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 12.411136880145667
+}
+[2021-01-18T15:06:18.726] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-18T20:06:18.725Z,
+  requestId: '7AGDJ8NC7RB1C6EC96KUN05F0RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 29.14269577882711
+}
+[2021-01-18T15:23:54.854] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-18T20:23:54.851Z,
+  requestId: 'KDQQJJKIV8V5A462T97JTCKDMFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 24.680022080139384
+}
+[2021-01-18T15:49:49.948] [ERROR] default - ValidationException: One or more parameter values are not valid. The AttributeValue for a key attribute cannot contain an empty string value. Key: employeeId
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-18T20:49:49.945Z,
+  requestId: 'QPPA182KUEIAKC85T91TG3VPD3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 27.28995858163169
+}
+[2021-01-18T16:17:55.589] [ERROR] default - null
+[2021-01-18T16:18:18.954] [ERROR] default - null
+[2021-01-18T16:21:27.144] [ERROR] default - null
+[2021-01-18T16:22:01.519] [ERROR] default - null
+[2021-01-18T16:23:13.325] [ERROR] default - null
+[2021-01-18T16:23:16.867] [ERROR] default - null
+[2021-01-18T16:24:01.154] [ERROR] default - null
+[2021-01-18T16:27:54.180] [ERROR] default - null
+[2021-01-18T16:27:55.236] [ERROR] default - null
+[2021-01-18T16:28:12.423] [ERROR] default - null
+[2021-01-18T16:28:48.049] [ERROR] default - null
+[2021-01-18T16:28:49.124] [ERROR] default - null
+[2021-01-18T16:29:44.492] [ERROR] default - null
+[2021-01-18T16:29:54.135] [ERROR] default - null
+[2021-01-18T16:29:57.938] [ERROR] default - null
+[2021-01-18T16:31:45.631] [ERROR] default - null
+[2021-01-18T16:31:46.729] [ERROR] default - null
+[2021-01-18T16:31:59.660] [ERROR] default - null
+[2021-01-18T16:32:28.719] [ERROR] default - ValidationException: One or more parameter values are not valid. The AttributeValue for a key attribute cannot contain an empty string value. Key: employeeId
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-18T21:32:28.718Z,
+  requestId: 'GQ1D9M3MG4T8N35O65K3IK424BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 21.924191603758224
+}
+[2021-01-18T16:32:45.870] [ERROR] default - null
+[2021-01-18T16:36:07.794] [ERROR] default - null
+[2021-01-18T16:37:12.211] [ERROR] default - null
+[2021-01-18T16:37:43.756] [ERROR] default - null
+[2021-01-18T16:37:53.030] [ERROR] default - null
+[2021-01-18T16:38:02.925] [ERROR] default - null
+[2021-01-18T16:46:23.928] [ERROR] default - null
+[2021-01-18T16:57:02.269] [ERROR] default - null
+[2021-01-18T17:02:25.490] [ERROR] default - null
+[2021-01-18T17:57:02.007] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ResourceNotFoundException',
+  time: 2021-01-18T22:57:02.004Z,
+  requestId: 'Q11G8CGFCTJG8O99EQIUFMMNSNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 4.6271801350074355
+}
+[2021-01-18T17:57:12.081] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-18T22:57:12.081Z,
+  requestId: 'P7S1PDK5D1V57R3D2J0C67CM0NVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 3.218313342425605
+}
+[2021-01-18T18:03:13.668] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ResourceNotFoundException',
+  time: 2021-01-18T23:03:13.665Z,
+  requestId: 'IMP47UCAP4U8Q7CAI8U1TFIMMRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 15.762769126201936
+}
+[2021-01-18T18:03:23.684] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-18T23:03:23.684Z,
+  requestId: 'VIHELR5ISU9NEBE1RJ3VNME86RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 38.41849007595941
+}
+[2021-01-18T18:05:40.138] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-18T23:05:40.137Z,
+  requestId: 'JP91RMLTIC2H09TNE6DLNDC953VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 14.112746844339942
+}
+[2021-01-18T18:31:13.137] [ERROR] default - null
+[2021-01-18T18:39:37.581] [ERROR] default - null
+[2021-01-18T19:44:42.021] [ERROR] default - null
+[2021-01-18T20:27:24.720] [ERROR] default - null
+[2021-01-18T21:13:27.109] [ERROR] default - null
+[2021-01-18T21:13:52.125] [ERROR] default - ValidationException: One or more parameter values were invalid: Type mismatch for Index Key employeeId Expected: N Actual: S IndexName: employeeRequests
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-19T02:13:52.124Z,
+  requestId: 'ICR5IASMM5LIJRVG7RLFIVUEMFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 5.4012435305916595
+}
+[2021-01-18T21:13:52.138] [ERROR] default - failed to add request
+[2021-01-18T21:26:41.269] [ERROR] default - ValidationException: One or more parameter values are not valid. A value specified for a secondary index key is not supported. The AttributeValue for a key attribute cannot contain an empty string value. IndexName: employeeRequestsByStatus, IndexKey: requestStatus
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-19T02:26:41.267Z,
+  requestId: 'ESKND5GOESTN61V1MAGV42C74RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 8.150017969548651
+}
+[2021-01-18T21:26:41.289] [ERROR] default - failed to add request
+[2021-01-18T21:27:03.221] [ERROR] default - ValidationException: One or more parameter values are not valid. A value specified for a secondary index key is not supported. The AttributeValue for a key attribute cannot contain an empty string value. IndexName: employeeRequestsByStatus, IndexKey: requestStatus
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-19T02:27:03.221Z,
+  requestId: '15N96ERVB3RPA3P28B7386NRR7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 44.15965497776801
+}
+[2021-01-18T21:27:03.234] [ERROR] default - failed to add request
+[2021-01-18T21:28:04.339] [ERROR] default - ValidationException: One or more parameter values are not valid. A value specified for a secondary index key is not supported. The AttributeValue for a key attribute cannot contain an empty string value. IndexName: employeeRequestsByStatus, IndexKey: requestStatus
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-19T02:28:04.339Z,
+  requestId: '0ED297QC3HG2JB0M1DJT0KD0E3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 5.653064496018024
+}
+[2021-01-18T21:28:04.365] [ERROR] default - failed to add request
+[2021-01-18T21:31:09.738] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-19T02:31:09.738Z,
+  requestId: 'URBPOLSJPDV3IHVJ4ID62AD4OFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.486537244513784
+}
+[2021-01-18T21:31:39.154] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-19T02:31:39.152Z,
+  requestId: 'JL0N9L0368TGD5PG0PS15S38QRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 36.99670997064065
+}
+[2021-01-18T21:31:39.180] [ERROR] default - failed to add request
+[2021-01-18T21:32:57.014] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-19T02:32:57.012Z,
+  requestId: 'E2JO8J5FBSLHF7N5I6D1A8126JVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 20.070616766961546
+}
+[2021-01-18T21:32:57.027] [ERROR] default - failed to add request
+[2021-01-18T21:34:19.839] [ERROR] default - ResourceNotFoundException: Requested resource not found
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ResourceNotFoundException',
+  time: 2021-01-19T02:34:19.836Z,
+  requestId: 'D4EKHKQ4BI4SE22590O5C6ODO3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 24.63637025090324
+}
+[2021-01-18T21:34:19.879] [ERROR] default - failed to add request
+[2021-01-18T21:34:29.835] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-19T02:34:29.834Z,
+  requestId: 'DVCUS7BILLGOFDHR382NCMJ36JVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 38.587046014240926
+}
+[2021-01-18T21:35:23.434] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-19T02:35:23.432Z,
+  requestId: 'KGUM7JCH73ACEP1AA6FSRS4P9FVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 0.5180732863993565
+}
+[2021-01-18T21:51:49.450] [ERROR] default - ValidationException: One or more parameter values were invalid: Type mismatch for Index Key employeeId Expected: N Actual: S IndexName: employeeRequests
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-19T02:51:49.450Z,
+  requestId: '8Q2RQQM07R1O0FIKNAGBM8NDLRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 27.705208635896472
+}
+[2021-01-18T21:51:49.463] [ERROR] default - failed to add request
+[2021-01-18T21:51:58.211] [ERROR] default - ValidationException: One or more parameter values were invalid: Type mismatch for Index Key employeeId Expected: N Actual: S IndexName: employeeRequests
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-19T02:51:58.211Z,
+  requestId: '48HARK58RIQHQTMGLJM2QVR9HJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 19.60609449417148
+}
+[2021-01-18T21:51:58.223] [ERROR] default - failed to add request
+[2021-01-18T21:53:02.267] [ERROR] default - ValidationException: One or more parameter values were invalid: Type mismatch for Index Key employeeId Expected: N Actual: S IndexName: employeeRequests
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-19T02:53:02.267Z,
+  requestId: '624VIHKPCOU4H4K1ITVQGGQ9QRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 45.599438160143
+}
+[2021-01-18T21:53:02.280] [ERROR] default - failed to add request
+[2021-01-18T21:54:26.646] [ERROR] default - ValidationException: One or more parameter values were invalid: Type mismatch for Index Key employeeId Expected: S Actual: N IndexName: employeeRequests
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-19T02:54:26.646Z,
+  requestId: 'A9L54EQTFK66K66KJL47HPCQ2VVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 44.89630228968582
+}
+[2021-01-18T21:54:26.648] [ERROR] default - failed to add request
+[2021-01-18T21:54:26.800] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-19T02:54:26.799Z,
+  requestId: 'OLRL6TM887FTRMVLNIKS5OR5K3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.75290749965249
+}
+[2021-01-19T18:58:50.754] [ERROR] default - null
+[2021-01-19T19:35:21.713] [ERROR] default - ValidationException: The table does not have the specified index: employeeRequests
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T00:35:21.713Z,
+  requestId: 'PFI7FN1GLLRFST0KJDEV56EUKNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.28247386196786
+}
+[2021-01-19T19:35:34.064] [ERROR] default - ValidationException: The table does not have the specified index: employeeRequests
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T00:35:34.064Z,
+  requestId: '62EB18VQL8T60LBN9I4UHPEN8JVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 36.14673231618032
+}
+[2021-01-19T19:37:26.016] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T00:37:26.016Z,
+  requestId: 'K1BQTQT8981G9L6LN6BSSR6HDVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 41.84709188960311
+}
+[2021-01-19T19:45:00.918] [ERROR] default - null
+[2021-01-19T20:17:38.972] [ERROR] default - ValidationException: One or more parameter values are not valid. The AttributeValue for a key attribute cannot contain an empty string value. Key: employeeId
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T01:17:38.971Z,
+  requestId: 'H85TK8FVENPLH6NAHDMHSUN7SJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 29.077615169028938
+}
+[2021-01-19T20:58:39.757] [ERROR] default - null
+[2021-01-19T20:58:53.467] [ERROR] default - null
+[2021-01-19T21:40:51.840] [ERROR] default - null
+[2021-01-19T21:42:06.593] [ERROR] default - null
+[2021-01-19T21:42:19.857] [ERROR] default - null
+[2021-01-19T22:28:58.375] [ERROR] default - null
+[2021-01-19T22:34:17.334] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:34:17.333Z,
+  requestId: '9NHRSIT20EGRT5MAPAIRBOI0BJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 34.92114885482438
+}
+[2021-01-19T22:34:19.875] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:34:19.875Z,
+  requestId: 'INN190B770JV6UNCEJUC1UQLQVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 6.41422294541557
+}
+[2021-01-19T22:35:20.473] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:35:20.472Z,
+  requestId: 'VBM4CAKD7T0TCFC04USJ02QN2NVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 3.1574818265739157
+}
+[2021-01-19T22:36:34.084] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:36:34.084Z,
+  requestId: 'Q7DFQRSLKVRUO3F23EKHG0OANFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.10523151484035
+}
+[2021-01-19T22:37:43.093] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:37:43.093Z,
+  requestId: '13DN8M9QI3USDSGA19UKHEQJGNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 36.0694310085634
+}
+[2021-01-19T22:37:44.592] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:37:44.592Z,
+  requestId: 'GF448GL23FAM750KTN1NVTOTINVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 10.000458236277254
+}
+[2021-01-19T22:39:02.287] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:39:02.286Z,
+  requestId: 'D6JDQ6GUNJLT33E3LOUGNC0L4BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 39.83950182356526
+}
+[2021-01-19T22:40:27.390] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:40:27.390Z,
+  requestId: 'JDBGL35VGR1QOARMGL33N5U69FVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 25.952565167651585
+}
+[2021-01-19T22:40:28.264] [ERROR] default - null
+[2021-01-19T22:40:32.847] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:40:32.846Z,
+  requestId: 'OV1TKPFN3SPCFH9K0ULC4QOD8VVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 18.520898041011268
+}
+[2021-01-19T22:41:29.137] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:41:29.137Z,
+  requestId: '8CAEEU59S30NQDNA8OJM3KEK33VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 4.397265908553072
+}
+[2021-01-19T22:41:31.295] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:41:31.295Z,
+  requestId: '7FM5UQNCFM0PMT7T5JSFOI5HU3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 46.04769133908591
+}
+[2021-01-19T22:41:58.107] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:41:58.107Z,
+  requestId: 'L875EIM440V0LEBAKBK1UEUIOJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 25.239601649289057
+}
+[2021-01-19T22:44:18.395] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:44:18.395Z,
+  requestId: 'DLCOULG3T1CU6G4NG0GCSMEUERVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 10.119942649241665
+}
+[2021-01-19T22:44:39.057] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:44:39.057Z,
+  requestId: 'D61UCBJ6DFQ03HPPRGRMH47783VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 42.23978898983556
+}
+[2021-01-19T22:44:57.197] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:44:57.196Z,
+  requestId: 'V39CLNCVNQ6OOIFK8VVIAMT2ONVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 43.42584969789274
+}
+[2021-01-19T22:46:28.982] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:46:28.981Z,
+  requestId: 'FV5SKH937LCGGM98MP66FH8JR7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 16.181747995810404
+}
+[2021-01-19T22:48:57.115] [ERROR] default - null
+[2021-01-19T22:49:04.943] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:49:04.942Z,
+  requestId: 'HHFJ8IMBE1FA8H408UEKK1L8VFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 38.55163864322181
+}
+[2021-01-19T22:50:51.369] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:50:51.368Z,
+  requestId: 'VUQ7HV38D094O8RFBBL30CMPDFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 21.153266037833717
+}
+[2021-01-19T22:51:52.423] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:51:52.422Z,
+  requestId: 'NTBGUEB0JGJ1RTC1QVAKK05BLBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 23.01105881113181
+}
+[2021-01-19T22:59:08.393] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T03:59:08.392Z,
+  requestId: '5UFMHPU1B3SMRCGDKJFJSM4S43VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 37.51892020110756
+}
+[2021-01-19T23:01:30.974] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T04:01:30.973Z,
+  requestId: 'G1T0RUITNAE8LJFEHN8N3M7HBVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 13.38055766941697
+}
+[2021-01-19T23:04:52.074] [ERROR] default - ValidationException: The provided key element does not match the schema
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T04:04:52.074Z,
+  requestId: '71VPM3FLUI0OVA4F0NFJT4K2BNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 38.95112097034802
+}
+[2021-01-19T23:07:39.905] [ERROR] default - ValidationException: Invalid KeyConditionExpression: Attribute name is a reserved keyword; reserved keyword: role
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T04:07:39.904Z,
+  requestId: 'MFEDK4TGCDT0MM0N5BJO8K11QBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 25.159962595049745
+}
+[2021-01-19T23:08:25.724] [ERROR] default - ValidationException: Invalid KeyConditionExpression: Attribute name is a reserved keyword; reserved keyword: role
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T04:08:25.724Z,
+  requestId: 'D3SMUJVH5ETJIR2EGGIS9VL4BJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 47.73985316311927
+}
+[2021-01-19T23:10:13.801] [ERROR] default - ValidationException: Invalid KeyConditionExpression: An expression attribute value used in expression is not defined; attribute value: :role
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T04:10:13.801Z,
+  requestId: '9IS4OBUOBKM78JJ7HC1O7R4Q1RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 14.930955508756128
+}
+[2021-01-19T23:10:51.536] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T04:10:51.536Z,
+  requestId: 'VH0OR9CE75D2O872P9UCIT569VVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 43.71731517437662
+}
+[2021-01-19T23:12:54.943] [ERROR] default - null
+[2021-01-19T23:39:54.555] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute name used in the document path is not defined; attribute name: #grading
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T04:39:54.554Z,
+  requestId: 'FG8GQVRCHQNK71CIL493GVFE7NVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 44.79325677288816
+}
+[2021-01-19T23:44:58.963] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T04:44:58.962Z,
+  requestId: 'UFKOKMRAU9CTH1NANMHKM2EJ8BVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 18.329668327146354
+}
+[2021-01-19T23:45:28.701] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute name used in the document path is not defined; attribute name: #grading
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T04:45:28.701Z,
+  requestId: 'UKI3TO1Q3MKBSH4IGTA1SGK02JVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 9.416812234330674
+}
+[2021-01-20T00:12:47.609] [ERROR] default - null
+[2021-01-20T00:13:26.035] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute name used in the document path is not defined; attribute name: #grading
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T05:13:26.035Z,
+  requestId: 'SSMKMAH7ALONSRLSMO5SMBIKQFVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 43.76957697459994
+}
+[2021-01-20T00:15:58.018] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute name used in the document path is not defined; attribute name: #approval
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T05:15:58.018Z,
+  requestId: 'IGPUO93BOAP2F8AVHNN8QPQSLBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 45.63538632609995
+}
+[2021-01-20T00:20:57.444] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T05:20:57.444Z,
+  requestId: 'G0QBV9SFKEFBC7H0FUO81LK6UNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 28.205364798273614
+}
+[2021-01-20T00:28:33.046] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :wtm
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T05:28:33.046Z,
+  requestId: '3KA0MMFRP1FMUJ5IRH66JLK8TRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 11.744269265082274
+}
+[2021-01-20T00:30:57.405] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :wtm
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T05:30:57.404Z,
+  requestId: 'TVRLOU1MM3AFNKB4B1RBVVGT9NVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 36.5898801912116
+}
+[2021-01-20T00:34:17.846] [ERROR] default - null
+[2021-01-20T00:34:46.214] [ERROR] default - null
+[2021-01-20T00:35:54.777] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :wtm
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T05:35:54.776Z,
+  requestId: 'EUIA2O1M4EBAJHKA7748T96QUBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 9.960011399951929
+}
+[2021-01-20T00:38:35.832] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :wtm
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T05:38:35.831Z,
+  requestId: 'P77D93087FBIV5NFI5B1QCODUBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 26.576893176179183
+}
+[2021-01-20T00:40:31.593] [ERROR] default - ValidationException: One or more parameter values were invalid: Cannot update attribute requestId. This attribute is part of the key
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T05:40:31.593Z,
+  requestId: 'JR3IRJ0KJ5RJ94CJ17EBNJOES3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 46.95266329507133
+}
+[2021-01-20T00:43:17.004] [ERROR] default - null
+[2021-01-20T00:45:22.136] [ERROR] default - null
+[2021-01-20T00:45:38.498] [ERROR] default - null
+[2021-01-20T00:46:27.041] [ERROR] default - null
+[2021-01-20T00:47:55.409] [ERROR] default - null
+[2021-01-20T01:11:49.786] [ERROR] default - null
+[2021-01-20T01:12:59.343] [ERROR] default - null
+[2021-01-20T01:13:08.006] [ERROR] default - null
+[2021-01-20T01:13:19.014] [ERROR] default - null
+[2021-01-20T01:13:29.976] [ERROR] default - null
+[2021-01-20T01:13:39.951] [ERROR] default - null
+[2021-01-20T01:16:20.443] [ERROR] default - null
+[2021-01-20T01:16:28.729] [ERROR] default - null
+[2021-01-20T01:16:50.930] [ERROR] default - null
+[2021-01-20T01:17:03.682] [ERROR] default - null
+[2021-01-20T01:18:15.903] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T06:18:15.903Z,
+  requestId: 'NVLAK4D3649FQNU0FJ9KIRP33RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 26.03686201197527
+}
+[2021-01-20T10:00:25.845] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :a
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T15:00:25.843Z,
+  requestId: '9BD64K6L9I5VTFBI5HBN9IVO5VVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 6.340718589112027
+}
+[2021-01-20T10:00:28.383] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :a
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T15:00:28.383Z,
+  requestId: '9GICT2Q7O2NJ46P5H86L2D78IVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 1.0992269711089908
+}
+[2021-01-20T10:00:31.216] [ERROR] default - null
+[2021-01-20T10:00:39.407] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :a
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T15:00:39.407Z,
+  requestId: 'JPPA1VTNIEA19TJ9JHHB9N09MRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 28.281710788301506
+}
+[2021-01-20T10:00:40.287] [ERROR] default - null
+[2021-01-20T10:02:06.332] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T15:02:06.332Z,
+  requestId: '3QQPA68LRNAC5416IUEBDJ8FNVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 6.8554365300759095
+}
+[2021-01-20T10:05:40.363] [ERROR] default - null
+[2021-01-20T10:05:49.413] [ERROR] default - null
+[2021-01-20T10:05:55.845] [ERROR] default - null
+[2021-01-20T10:06:38.373] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :a
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T15:06:38.372Z,
+  requestId: 'K6IT06ALTLNR07DG9UHQATQSABVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 38.87401903137123
+}
+[2021-01-20T10:06:40.490] [ERROR] default - null
+[2021-01-20T10:07:04.897] [ERROR] default - null
+[2021-01-20T10:07:13.188] [ERROR] default - null
+[2021-01-20T10:07:20.573] [ERROR] default - null
+[2021-01-20T10:07:43.076] [ERROR] default - null
+[2021-01-20T10:07:54.671] [ERROR] default - null
+[2021-01-20T10:07:59.858] [ERROR] default - null
+[2021-01-20T10:08:50.010] [ERROR] default - null
+[2021-01-20T10:09:54.690] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T15:09:54.689Z,
+  requestId: 'T1K3CJ6U2V77HFM6MQ6USSB03JVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 41.70787096716961
+}
+[2021-01-20T10:11:18.621] [ERROR] default - null
+[2021-01-20T10:11:24.059] [ERROR] default - null
+[2021-01-20T10:11:34.138] [ERROR] default - ValidationException: Invalid UpdateExpression: An expression attribute value used in expression is not defined; attribute value: :a
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ValidationException',
+  time: 2021-01-20T15:11:34.137Z,
+  requestId: 'UMBL6OV36QQ7DQEKHMFULAH7I7VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 17.890583762621137
+}
+[2021-01-20T10:12:26.152] [ERROR] default - null
+[2021-01-20T10:12:31.561] [ERROR] default - null
+[2021-01-20T10:13:33.598] [ERROR] default - null
+[2021-01-20T10:13:46.836] [ERROR] default - null
+[2021-01-20T10:13:56.360] [ERROR] default - null
+[2021-01-20T10:14:15.787] [ERROR] default - null
+[2021-01-20T10:14:22.103] [ERROR] default - null
+[2021-01-20T10:14:59.616] [ERROR] default - null
+[2021-01-20T10:15:19.157] [ERROR] default - null
+[2021-01-20T10:18:09.389] [ERROR] default - null
+[2021-01-20T10:18:18.981] [ERROR] default - null
+[2021-01-20T10:19:20.618] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T15:19:20.617Z,
+  requestId: 'CPPKI8TR3F3KLLUJETMGBD9LBRVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 39.09513312684212
+}
+[2021-01-20T10:21:22.299] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T15:21:22.299Z,
+  requestId: 'R4KTMVE08UJOT04B40IN12RN4RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 16.280325402222662
+}
+[2021-01-20T10:21:48.844] [ERROR] default - null
+[2021-01-20T10:21:57.909] [ERROR] default - null
+[2021-01-20T10:22:03.647] [ERROR] default - null
+[2021-01-20T10:24:30.328] [ERROR] default - null
+[2021-01-20T10:24:44.458] [ERROR] default - null
+[2021-01-20T10:25:15.001] [ERROR] default - null
+[2021-01-20T10:26:57.112] [ERROR] default - null
+[2021-01-20T10:27:30.495] [ERROR] default - null
+[2021-01-20T10:27:49.961] [ERROR] default - null
+[2021-01-20T10:28:21.514] [ERROR] default - null
+[2021-01-20T10:28:51.042] [ERROR] default - null
+[2021-01-20T10:28:57.093] [ERROR] default - null
+[2021-01-20T10:29:32.814] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T15:29:32.814Z,
+  requestId: '4VQJO408D36PQL125KINGG6LBNVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 40.91651684231675
+}
+[2021-01-20T10:41:15.218] [ERROR] default - null
+[2021-01-20T10:58:46.602] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (D:\Revature\ruidiot\backend\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2021-01-20T15:58:46.602Z,
+  requestId: 'T0FSVUP4PPC9IBMSIL2C9AH51RVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 15.621345243210483
+}
+[2021-01-20T12:05:45.797] [ERROR] default - null
+[2021-01-20T12:06:12.549] [ERROR] default - null
+[2021-01-20T12:06:17.788] [ERROR] default - null
+[2021-01-20T12:06:49.386] [ERROR] default - null
+[2021-01-20T12:07:16.615] [ERROR] default - null
+[2021-01-20T12:07:28.917] [ERROR] default - null
+[2021-01-20T12:11:59.637] [ERROR] default - null
